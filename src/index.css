@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-playfair: 'Playfair Display', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-script: 'Alex Brush', cursive;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #422e25;
+    color: #fdf6e3;
+  }
+
+  h1, h2, h3, .font-serif-brand {
+    font-family: var(--font-cinzel);
+    letter-spacing: 0.05em;
+  }
+
+  .font-playfair {
+    font-family: var(--font-playfair);
+  }
+
+  .font-script {
+    font-family: var(--font-script);
+  }
+}
+
+/* Custom editorial scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #422e25;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(196, 164, 132, 0.3);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(196, 164, 132, 0.5);
+}
+
+/* Editorial styling utilities */
+.bg-editorial-panel {
+  background-color: #4d372d;
+  border-color: rgba(196, 164, 132, 0.25);
+}
+
+.wood-engraved-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), -1px -1px 0px rgba(196, 164, 132, 0.25);
+}
+
+.editorial-divider {
+  border-color: rgba(196, 164, 132, 0.2);
+}
+
+.glow-editorial {
+  box-shadow: 0 0 30px -5px rgba(196, 164, 132, 0.15);
+}
+

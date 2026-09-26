@@ -1,0 +1,6 @@
+{
+  "name": "ZIYA Turkish Restaurant",
+  "description": "Аутентичная турецкая кухня в Бишкеке — Завтраки, ужины, атмосфера Стамбула, онлайн-меню, заказ с доставкой и бронирование столиков.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
